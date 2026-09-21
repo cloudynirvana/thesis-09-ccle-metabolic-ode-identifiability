@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you cite this computational research thesis, please use the metadata below. No DOI is minted here; do not invent one."
+type: thesis
+title: "Structural and Practical Identifiability of a Shared Metabolic Cancer ODE under Multi-Channel Noisy Observation Maps"
+authors:
+  - family-names: Ogbonna
+    given-names: Kelechi Emeka
+    email: kelechiogbonna300@gmail.com
+    alias: cloudynirvana
+abstract: >-
+  Can a shared metabolic ODE recover unique (or practically unique) parameters
+  from multi-channel metabolomics-style outputs, or does identifiability
+  collapse under realistic noisy maps? For a four-state glucose, pyruvate,
+  lactate and glutamine-pool model, a steady lactate/glucose ratio has Fisher
+  rank 1 of 5. A four-channel snapshot with a lineage loading has profiled
+  rank 4 of 5: a common rescaling of the rates is absorbed by the loading, so
+  coordinate profiles stay flat. A scale gauge and a time-course upper bound
+  are reported separately. Draws are a synthetic surrogate, not a CCLE file.
+  Not a medical device.
+keywords:
+  - structural identifiability
+  - practical identifiability
+  - profile likelihood
+  - Fisher information
+  - cancer metabolism
+  - metabolomics
+  - ordinary differential equations
+  - batch effect
+  - observation map
+  - computational oncology
+  - research-only
+license: MIT
+date-released: "2026-09-21"
+url: "https://github.com/cloudynirvana/thesis-09-ccle-metabolic-ode-identifiability"
+repository-code: "https://github.com/cloudynirvana/thesis-09-ccle-metabolic-ode-identifiability"
+preferred-citation:
+  type: thesis
+  title: "Structural and Practical Identifiability of a Shared Metabolic Cancer ODE under Multi-Channel Noisy Observation Maps"
+  authors:
+    - family-names: Ogbonna
+      given-names: Kelechi Emeka
+  year: 2026
+  month: 9
+  url: "https://github.com/cloudynirvana/thesis-09-ccle-metabolic-ode-identifiability"
+  notes: "Thesis #9. Computational research. Synthetic multi-channel surrogate, not a CCLE download. No document DOI."
